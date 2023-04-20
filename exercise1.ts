@@ -38,7 +38,7 @@ type Movie = {
 // Write a function called getProfit that accepts a single Movie object
 // It should return the movie's worldwide gross minus its budget
 
-const getProfit = (m: Movie) => {
+function getProfit(m: Movie): number {
 	return m.boxOffice.grossWorldwide - m.boxOffice.budget
 }
 
